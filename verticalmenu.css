@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #C683D7;
+    width: 15%;
+    height: 100vh;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-main {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    display: block;
+}
+
+a:hover {
+    
+    background-color: white;
+    color: #304D30;
+}
+
+/* ----- Below Dropdown -----
+.nav-menu {
+    position: relative;
+    display: none;
+} */
+
+
+/* Right-side dropdown */
+.nav-menu {
+    position: absolute;
+    background-color: #C683D7;
+    color: white;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+.nav-drop-mobile {
+    position: relative;
+}
+
+.nav-drop-mobile:hover .nav-menu {
+    display: block;
+}
+
+.iphone-drop {
+    position: relative;
+}
+
+.iphone-menu {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+.iphone-drop:hover .iphone-menu {
+    display: block;
+    background-color: #C683D7;
+    color: white;
+}

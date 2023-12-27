@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+.nav-main {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #EEE2DE;
+    color: black;
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+}
+
+.nav-drop:hover .nav-menu {
+    display: block;
+    background-color: black;
+}

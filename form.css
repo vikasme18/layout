@@ -1,0 +1,16 @@
+.fa-envelope
+{
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+
+#mails
+{
+    position: relative;
+}
+
+#mail
+{
+   height: 200%;
+}
